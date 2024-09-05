@@ -17,6 +17,7 @@ function randomcolor(){
 }
 
 async function generatekural(){
+    try{
     if(oldresp!==kuralNumber.value){
     const data = await fetch(`https://getthirukkural.appspot.com/api/3.0/kural/${kuralNumber.value}?appid=0rgzqujowgure`)
     const response = await data.json()
@@ -34,5 +35,8 @@ async function generatekural(){
         ${response.en}`)
     oldresp = kuralNumber.value
     }
+} catch(error){
+    console.log(error)
+}
 }
 
