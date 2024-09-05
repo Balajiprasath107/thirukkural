@@ -1,5 +1,5 @@
-# Thirukkural website using api
-Welcome to the Thirukkural Search Website! This platform allows users to search for Thirukkural couplets by entering a number between 1 and 1330. 
+# Thirukkural Search using api
+Welcome to the Thirukkural Search Websit! This platform allows users to search for Thirukkural couplets by entering a number between 1 and 1330. 
 The website utilizes the GetThirukkural API to retrieve the corresponding Thirukkural along with its meaning and partition.
 
 ## Features
