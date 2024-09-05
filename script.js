@@ -22,7 +22,6 @@ async function generatekural(){
     const response = await data.json()
 
     let rcolor = randomcolor()
-    console.log(response)
     document.body.style.backgroundColor = rcolor
     
     container.style.color = rcolor
