@@ -5,6 +5,7 @@ body{
     align-items: center;
     gap:0.5rem;
     margin: 0 auto;
+    padding: 1rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: #212830;
     color: #ffffff;
@@ -71,7 +72,7 @@ button:active{
         width: 90vw;
     }
     h1{
-        text-align: justify;
+        text-align: center;
     }
 }
 
