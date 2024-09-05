@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukkural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>திருக்குறள்/Thirukkural</h1>
+    
+    <div id="container">
+        <label for="kuralNumber">திருக்குறள் எண்/Thirukkural No.</label>
+        <input type="number" name="kuralNumber" class="kuralNumber" min="1"  oninput="validity.valid||(value = '')" required>
+        <button class="getThirukural">Get</button>
+        <div class="ThirukuralContainer">
+            <p id="ThirukuralLine1"></p>
+            <p id="ThirukuralLine2"></p>
+        </div>
+        <div class="explanation">
+            <p id="meaning"></p>
+            <p id="en-meaning"></p>    
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
